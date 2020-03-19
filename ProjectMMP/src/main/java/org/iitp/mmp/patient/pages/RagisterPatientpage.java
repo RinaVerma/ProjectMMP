@@ -20,7 +20,7 @@ public class RagisterPatientpage {
 		this.driver = driver;
 	}
 	public HashMap<String, String> register(String userName,String password) throws InterruptedException
-	{
+	{//this is the copy og sudheer code.
 		    Random rnd = new Random();
 			HashMap<String,String> hMap = new HashMap<String,String>();
 		    
